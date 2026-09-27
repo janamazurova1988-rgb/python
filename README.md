@@ -27,3 +27,5 @@ python analyza_prodeju.py moje.xlsx -o vysledky --list Prodeje
 - Názvy sloupců nezávisí na velikosti písmen; řádky s chybným datem/hodnotou se vynechají.
 - Funguje pro měsíční i denní záznamy (vše se sečte po kalendářních měsících).
 - `vytvor_ukazkova_data.py` vygeneruje další smyšlená data (`--denni` pro denní záznamy).
+
+
