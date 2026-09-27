@@ -28,4 +28,10 @@ python analyza_prodeju.py moje.xlsx -o vysledky --list Prodeje
 - Funguje pro měsíční i denní záznamy (vše se sečte po kalendářních měsících).
 - `vytvor_ukazkova_data.py` vygeneruje další smyšlená data (`--denni` pro denní záznamy).
 
+## Fiktivní měsíční report výdejů léků
 
+```bash
+python vytvor_report_leky.py --rok 2026 --mesic 12   # → reporty/report_2026_12.xlsx
+```
+
+Listy *Report*, *Grafy* a *Výdeje v měsíci* – stejná struktura jako `report_2025_12.xlsx`.
